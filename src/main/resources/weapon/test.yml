@@ -1,0 +1,42 @@
+Item:
+  ID: 1
+  Name: "<RandomPrefix><Name><RandomSuffix>"
+  Lore:
+    - ""
+    - "<RandomAttribute_Damage>"
+    - "<RandomAttribute_DamageAddition>%"
+    - "<RandomAttribute_Defense>"
+    - ""
+    - "非常牛逼的武器"
+  Unbreakable: true
+  HideFlags:
+    - HIDE_ATTRIBUTES
+
+RandomString:
+  RandomPrefix:
+    - "&b牛逼的"
+    - "&b牛逼到死的"
+  Name:
+    - "&b咖喱棒"
+  RandomSuffix:
+    - "&7[&f劣等&7]"
+
+RandomAttribute:
+  Damage:
+    String: "&c物理伤害"
+    Value: "&f"
+    MaxValue: 100.0
+    MinValue: 10.0
+    Chance: 0.1
+  DamageAddition:
+    String: "&c物理伤害"
+    Value: "&f"
+    MaxValue: 100.0
+    MinValue: 10.0
+    Chance: 0.1
+  Defense:
+    String: "&c物理伤害"
+    Value: "&f"
+    MaxValue: 100.0
+    MinValue: 10.0
+    Chance: 0.1

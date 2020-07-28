@@ -1,0 +1,8 @@
+name: APRandom
+version: V1.0.1-SNAPSHOT
+author: pe_e
+main: com.github.hotpee.aprandom.APRandom
+commands:
+  apr:
+    description: APRandom Commands
+
